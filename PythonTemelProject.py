@@ -1,11 +1,3 @@
-# m = [[1, 3], 2, [2,3]]
-# m2  = []
-# for l in m:
-#     for e in l:
-#         m2.append(e)
-# print(m2)
-
-
 def flatten(x):
     if isinstance(x, list) is True:
         if len(x) == 0:
